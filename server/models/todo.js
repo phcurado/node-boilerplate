@@ -3,7 +3,7 @@ var mongoose = require('mongoose');
 var Todo = mongoose.model('Todo',{
     title: {
         type: String,
-        maxLength: 10,
+        maxlength: 10,
         required: true
     },
     text: {
